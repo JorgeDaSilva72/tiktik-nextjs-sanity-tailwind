@@ -150,11 +150,11 @@ const Detail = ({ postDetails }: IProps) => {
                 )}
               </div>
               <Comments
-              // comment={comment}
-              // setComment={setComment}
-              // addComment={addComment}
-              // comments={post.comments}
-              // isPostingComment={isPostingComment}
+                comment={comment}
+                setComment={setComment}
+                addComment={addComment}
+                comments={post.comments}
+                isPostingComment={isPostingComment}
               />
             </div>
           </div>
