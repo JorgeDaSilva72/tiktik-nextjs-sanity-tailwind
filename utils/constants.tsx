@@ -1,39 +1,44 @@
-import { BsCode, BsEmojiSunglasses } from "react-icons/bs";
-import { GiCakeSlice, GiGalaxy, GiLipstick } from "react-icons/gi";
-import { FaPaw, FaMedal, FaGamepad } from "react-icons/fa";
+// import { BsCode, BsEmojiSunglasses } from "react-icons/bs";
+// import { GiCakeSlice, GiGalaxy, GiLipstick } from "react-icons/gi";
+// import { FaPaw, FaMedal, FaGamepad } from "react-icons/fa";
+
+import { FaBirthdayCake, FaUmbrellaBeach } from "react-icons/fa";
+import { TbChristmasTree, TbHeart } from "react-icons/tb";
+import { GiHotMeal, GiPartyPopper, GiEarthAfricaEurope } from "react-icons/gi";
+import { GrStatusUnknown } from "react-icons/gr";
 
 export const topics = [
   {
-    name: "coding",
-    icon: <BsCode />,
+    name: "birthday",
+    icon: <FaBirthdayCake />,
   },
   {
-    name: "comedy",
-    icon: <BsEmojiSunglasses />,
+    name: "christmas",
+    icon: <TbChristmasTree />,
   },
   {
-    name: "gaming",
-    icon: <FaGamepad />,
+    name: "dinners",
+    icon: <GiHotMeal />,
   },
   {
-    name: "food",
-    icon: <GiCakeSlice />,
+    name: "vacation",
+    icon: <FaUmbrellaBeach />,
   },
   {
-    name: "dance",
-    icon: <GiGalaxy />,
+    name: "party",
+    icon: <GiPartyPopper />,
   },
   {
-    name: "beauty",
-    icon: <GiLipstick />,
+    name: "travel",
+    icon: <GiEarthAfricaEurope />,
   },
   {
-    name: "animals",
-    icon: <FaPaw />,
+    name: "wedding",
+    icon: <TbHeart />,
   },
   {
-    name: "sports",
-    icon: <FaMedal />,
+    name: "others",
+    icon: <GrStatusUnknown />,
   },
 ];
 
