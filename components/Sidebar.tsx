@@ -44,7 +44,7 @@ const Sidebar: NextPage = () => {
           </div>
           <Discover />
           <SuggestedAccounts />
-          <Footer />
+          {/* <Footer /> */}
         </div>
       )}
     </div>
